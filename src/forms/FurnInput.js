@@ -22,4 +22,5 @@ const FurnInput = (props) => {
 		);
 	} else return <div></div>;
 };
+
 export default FurnInput;
