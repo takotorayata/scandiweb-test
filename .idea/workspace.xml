@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="743ede09-fbdc-476e-a993-4a641f9b4de0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/connection.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1ziMXxOl49DIPnCZFNwXfVAzMhM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\shop\server" />
+      <recent name="C:\wamp64\www\shop\public" />
+      <recent name="C:\wamp64\www\shop\src\forms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\shop\public" />
+      <recent name="C:\wamp64\www\shop" />
+      <recent name="C:\wamp64\www\shop\app\src\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="743ede09-fbdc-476e-a993-4a641f9b4de0" name="Changes" comment="" />
+      <created>1634626501034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634626501034</updated>
+      <workItem from="1634626502787" duration="23489000" />
+      <workItem from="1634708068168" duration="610000" />
+      <workItem from="1634708711340" duration="22486000" />
+      <workItem from="1634793649860" duration="6878000" />
+      <workItem from="1634800642737" duration="19545000" />
+      <workItem from="1634879150427" duration="20113000" />
+      <workItem from="1634899541942" duration="11993000" />
+      <workItem from="1634973598359" duration="12752000" />
+      <workItem from="1634990923158" duration="6022000" />
+      <workItem from="1635085233021" duration="57000" />
+      <workItem from="1635141952093" duration="18526000" />
+      <workItem from="1635226405301" duration="21211000" />
+      <workItem from="1635314072110" duration="7489000" />
+      <workItem from="1635399119619" duration="3988000" />
+      <workItem from="1635404478497" duration="28030000" />
+      <workItem from="1635485277532" duration="8435000" />
+      <workItem from="1635843682331" duration="61000" />
+      <workItem from="1635844970033" duration="4695000" />
+      <workItem from="1635860060746" duration="7722000" />
+      <workItem from="1635921262116" duration="22492000" />
+      <workItem from="1636007836870" duration="1096000" />
+      <workItem from="1636009110278" duration="11298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/forms/Products.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
