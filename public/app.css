@@ -1,0 +1,285 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400, 700);
+
+html {
+	font-family: 'Montserrat', Arial, sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	background: #f2f3eb;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+input,
+select {
+	color: #5a5a5a;
+	font: inherit;
+	margin: 0;
+}
+
+input {
+	line-height: normal;
+}
+
+#container {
+	border: solid 3px #474544;
+	max-width: 968px;
+	margin: 60px auto;
+	position: relative;
+}
+
+placeholder {
+	padding-left: 20px;
+}
+
+h1 {
+	color: #474544;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 7px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 220px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+.underline {
+	border-bottom: solid 2px #474544;
+	margin: -0.512em auto;
+	width: 80px;
+}
+
+input[type='text'],
+[type='number'],
+select {
+	background: none;
+	border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 1em;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.control,
+fieldset {
+	margin: 6px 0;
+}
+
+label {
+	display: inline-block;
+	width: 130px;
+	vertical-align: top;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.required {
+	color: red;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+	background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png')
+		no-repeat right;
+	outline: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+.subject {
+	width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+.form_button {
+	background: none;
+	border: solid 2px #474544;
+	color: #474544;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-size: 0.875em;
+	font-weight: bold;
+	outline: none;
+	margin: 20px;
+	padding: 20px 35px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+	background: #474544;
+	color: #f2f3eb;
+}
+
+p {
+	padding-left: 1em;
+}
+
+h2 {
+	text-align: center;
+}
+
+.listing {
+	list-style: none;
+	margin: 2em;
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.listing li {
+	border: 1px solid #474544;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.listing .delete-checkbox {
+	margin-top: auto;
+	border-top: 1px solid #474544;
+	padding: 10px;
+	text-align: center;
+}
+.listing .body {
+	padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	#container {
+		margin: 20px auto;
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+
+	.underline {
+		width: 68px;
+	}
+
+	#form_button {
+		padding: 15px 25px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	h1 {
+		font-size: 18px;
+	}
+
+	.icon {
+		height: 35px;
+		width: 35px;
+	}
+
+	.underline {
+		width: 53px;
+	}
+
+	input[type='text'],
+	select,
+	textarea {
+		font-size: 0.875em;
+	}
+}
