@@ -1,13 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400, 700);
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 html {
-	font-family: 'Montserrat', Arial, sans-serif;
+	font-family: 'Poiret One', cursive;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
 
 body {
-	background: #f2f3eb;
+	background: black;
+	font-family: 'Poiret One', cursive;
+	color: rgb(180, 0, 0);
 }
 
 button {
@@ -22,9 +24,9 @@ select {
 button,
 input,
 select {
-	color: #5a5a5a;
+	color: rgb(180, 0, 0);
 	font: inherit;
-	margin: 0;
+	margin: 0px;
 }
 
 input {
@@ -32,7 +34,8 @@ input {
 }
 
 #container {
-	border: solid 3px #474544;
+	border: 1px solid rgb(68, 13, 13);
+	box-shadow: 0 0 5px rgb(68, 13, 13);
 	max-width: 968px;
 	margin: 60px auto;
 	position: relative;
@@ -43,8 +46,9 @@ placeholder {
 }
 
 h1 {
-	color: #474544;
+	color: rgb(180, 0, 0);
 	font-size: 32px;
+	font-family: 'Poiret One', cursive;
 	font-weight: 700;
 	letter-spacing: 7px;
 	text-align: center;
@@ -59,10 +63,9 @@ h1 {
 .tooltip .tooltiptext {
 	visibility: hidden;
 	width: 220px;
-	background-color: #555;
-	color: #fff;
+	background-color: black;
+	color: rgb(180, 0, 0);
 	text-align: center;
-	border-radius: 6px;
 	padding: 5px 0;
 	position: absolute;
 	z-index: 1;
@@ -81,7 +84,7 @@ h1 {
 	margin-left: -5px;
 	border-width: 5px;
 	border-style: solid;
-	border-color: #555 transparent transparent transparent;
+	border-color: rgb(68, 13, 13);
 }
 
 .tooltip:hover .tooltiptext {
@@ -90,7 +93,7 @@ h1 {
 }
 
 .underline {
-	border-bottom: solid 2px #474544;
+	border-bottom: solid 1px rgb(68, 13, 13);
 	margin: -0.512em auto;
 	width: 80px;
 }
@@ -100,8 +103,8 @@ input[type='text'],
 select {
 	background: none;
 	border: none;
-	border-bottom: solid 2px #474544;
-	color: #474544;
+	border-bottom: 1px solid rgb(68, 13, 13);
+	color: rgb(180, 0, 0);
 	font-size: 1em;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -139,7 +142,7 @@ label {
 }
 
 .required {
-	color: red;
+	color: rgb(180, 0, 0);
 }
 
 .message {
@@ -152,8 +155,8 @@ label {
 }
 
 select {
-	background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png')
-		no-repeat right;
+	background: black;
+	color: rgb(180, 0, 0);
 	outline: none;
 	-moz-appearance: none;
 	-webkit-appearance: none;
@@ -168,35 +171,36 @@ select::-ms-expand {
 }
 
 ::-webkit-input-placeholder {
-	color: #474544;
+	color: rgb(180, 0, 0);
 }
 
 :-moz-placeholder {
-	color: #474544;
+	color: rgb(180, 0, 0);
 	opacity: 1;
 }
 
 ::-moz-placeholder {
-	color: #474544;
+	color: rgb(180, 0, 0);
 	opacity: 1;
 }
 
 :-ms-input-placeholder {
-	color: #474544;
+	color: rgb(180, 0, 0);
 }
 
 .form_button {
 	background: none;
-	border: solid 2px #474544;
-	color: #474544;
+	border: 1px solid rgb(68, 13, 13);
+	box-shadow: 0 0 5px rgb(68, 13, 13);
+	color: rgb(180, 0, 0);
 	cursor: pointer;
 	display: inline-block;
-	font-family: 'Helvetica', Arial, sans-serif;
-	font-size: 0.875em;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
 	font-weight: bold;
 	outline: none;
-	margin: 20px;
-	padding: 20px 35px;
+	margin: 30px;
+	padding: 15px 35px;
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -206,8 +210,91 @@ select::-ms-expand {
 }
 
 #form_button:hover {
-	background: #474544;
-	color: #f2f3eb;
+	background: black;
+	color: rgb(180, 0, 0);
+}
+
+.form_button1 {
+	background: none;
+	border: 1px solid rgb(68, 13, 13);
+	box-shadow: 0 0 5px rgb(68, 13, 13);
+	color: rgb(180, 0, 0);
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	font-weight: bold;
+	outline: none;
+	margin: 30px;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.form_button2 {
+	background: none;
+	border: 1px solid rgb(68, 13, 13);
+	box-shadow: 0 0 5px rgb(68, 13, 13);
+	color: rgb(180, 0, 0);
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	font-weight: bold;
+	outline: none;
+	margin: 40px;
+	padding: 15px 35px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.form_button3 {
+	background: none;
+	border: 1px solid rgb(68, 13, 13);
+	box-shadow: 0 0 5px rgb(68, 13, 13);
+	color: rgb(180, 0, 0);
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	font-weight: bold;
+	outline: none;
+	margin: 30px;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.form_button4 {
+	background: none;
+	border: 1px solid rgb(68, 13, 13);
+	box-shadow: 0 0 5px rgb(68, 13, 13);
+	color: rgb(180, 0, 0);
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	font-weight: bold;
+	outline: none;
+	margin: 30px;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 p {
@@ -227,19 +314,23 @@ h2 {
 }
 
 .listing li {
-	border: 1px solid #474544;
-	border-radius: 5px;
+	border: 1px solid rgb(68, 13, 13);
+	box-shadow: 0 0 5px rgb(68, 13, 13);
 	display: flex;
 	flex-direction: column;
 }
 .listing .delete-checkbox {
 	margin-top: auto;
-	border-top: 1px solid #474544;
+	border-top: 1px solid rgb(68, 13, 13);
+	box-shadow: 0 0 5px rgb(68, 13, 13);
 	padding: 10px;
 	text-align: center;
 }
-.listing .body {
-	padding: 10px;
+.listing .delete-checkbox input[type='checkbox'] {
+	margin: 7px !important;
+	border: 1px solid rgb(68, 13, 13) !important;
+	box-shadow: 0 0 5px rgb(68, 13, 13) !important;
+	color: black !important;
 }
 
 @media screen and (max-width: 768px) {
